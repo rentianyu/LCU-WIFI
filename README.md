@@ -21,7 +21,7 @@ bash login_unsafe.sh 账号 密码
 - 因校园网密码加密算法时常改变和个人能力有限，密码需要在浏览器里自己找一下
 - 用法为
   1. 在 [登录](http://172.30.2.2:8088) 前按F12抓包，登录成功后找`http://172.30.2.2:8088/eportal/success.jsp?userIndex****`的Cookie
-  2. 下载脚本 [login](./login.sh) ，将所需值填入对应位置后运行脚本即可
+  2. 下载脚本 [login](./login.sh) ，将所需值填入脚本内对应位置后运行脚本即可
 
 ```text
 # Cookie内EPORTAL_COOKIE_USERNAME值，即 学号，为10位
