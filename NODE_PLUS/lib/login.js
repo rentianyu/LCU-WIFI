@@ -42,7 +42,7 @@ var isLogined = (eportalURL) => {
         })
     });
 }
-var login = (userid, password, logined) => {
+var login = (eportalURL,userid, password, logined) => {
     var qs = {
         userId: userid,
         password: encryptedPassword(password),
@@ -85,7 +85,7 @@ module.exports.tryLogin = async (eportalURL,userid, password) => {
         tool.info ("网络已登录，无需再次登录！");
     } else {
         tool.info ("网络未登录，开始登录！");
-        let logining = await login(userid, password, logined).then(function (req) {
+        let logining = await login(eportalURL,userid, password, logined).then(function (req) {
             return req;
         })
         var result = JSON.parse(logining)["result"];
