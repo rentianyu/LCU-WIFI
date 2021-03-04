@@ -2,7 +2,7 @@
 # 此脚本为聊城大学2021年校园网自动登录的Shell脚本
 # 项目地址为 https://github.com/rentianyu/LCU_WIFI
 # 此脚本为未加密版，请注意安全，仅供学习交流使用
-# 用法为wget --no-check-certificate https://raw.githubusercontent.com/rentianyu/LCU_WIFI/master/login_unsafe.sh && bash login_unsafe.sh 账号 密码
+# 用法为wget --no-check-certificate https://raw.githubusercontent.com/rentianyu/LCU_WIFI/master/SHELL/login_unsafe.sh && bash login_unsafe.sh 账号 密码
 
 if curl -s baidu.com | grep -q baidu; then
     echo "网络已登录，无需再次登录！"
