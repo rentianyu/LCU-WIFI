@@ -4,12 +4,12 @@
 
 - 请使用`crontab`等工具结合脚本实现校园网自动登录
 
-## 一、**Shell** 脚本版
+## 一、**Shell** 脚本版 [by rentianyu](https://github.com/rentianyu)
 
 - 此版本是 **sh** 版本，多平台支持
 - 用法参见 [Shell 脚本版登录用法](./SHELL/README.md)
 
-## 二、Node.js 版本
+## 二、Node.js 版本 [by MaxChang3](https://github.com/MaxChang3)
 
 - 此版本是 **Node.js** 版本，多平台支持
 - 用法参见 [Node.js 版登录用法](./NODE_PLUS/README.md)
