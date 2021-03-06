@@ -13,3 +13,7 @@
 
 - 此版本是 **Node.js** 版本，多平台支持
 - 用法参见 [Node.js 版登录用法](./NODE_PLUS/README.md)
+
+## 访问量
+
+![](http://profile-counter.glitch.me/BlueSkyClouds/count.svg)
