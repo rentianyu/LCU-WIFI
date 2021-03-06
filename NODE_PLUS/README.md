@@ -19,7 +19,7 @@
    npm config set registry http://registry.npm.taobao.org
    ```
 3. ```
-   cd LCU_WIFI_NODEPLUS
+   cd NODE_PLUS
    npm install
    ```
 4. 修改配置文件setting.json:
