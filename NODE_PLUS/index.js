@@ -8,11 +8,11 @@ console.log("=================================================================="
 
 tool.info("LCU_WIFI_NodePlus 已经启动。");
 tool.info("正在读取配置文件……");
-
-var EportalURL = tool.getJSON("EportalURL")
-var UserID = tool.getJSON("UserID");
-var Password = tool.getJSON("Password");
-var Pertime = tool.getJSON("Time");
+ 
+let EportalURL = tool.getJSON("EportalURL")
+let UserID = tool.getJSON("UserID");
+let Password = tool.getJSON("Password");
+let Pertime = tool.getJSON("Time");
 
 tool.info("======================================================");
 tool.info("地址：" + EportalURL);
@@ -23,7 +23,7 @@ tool.info("======================================================");
 
 tool.info("读取完毕。");
 
-var loginwww = () => {
+let loginwww = () => {
     login.tryLogin(EportalURL, UserID, Password)
 }
 loginwww();
